@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Will You Be Mine?</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <div class="background-collage">
-        <div class="bg-img" style="background-image: url('https://picsum.photos/1000/1500?random=1');"></div>
-        <div class="bg-img" style="background-image: url('https://picsum.photos/1000/1000?random=2');"></div>
-        <div class="bg-img" style="background-image: url('https://picsum.photos/1000/1000?random=3');"></div>
-        <div class="bg-img" style="background-image: url('https://picsum.photos/1000/1000?random=4');"></div>
-        <div class="bg-img hide-desktop" style="background-image: url('https://picsum.photos/1000/1000?random=5');"></div>
+        <div class="bg-img" style="background-image: url('ak/bg1.jpeg');"></div>
+        <div class="bg-img" style="background-image: url('ak/bg2.jpeg');"></div>
+        <div class="bg-img" style="background-image: url('ak/bg3.jpeg');"></div>
+        <div class="bg-img" style="background-image: url('ak/bg1.jpeg');"></div>
         <div class="overlay"></div>
     </div>
 
@@ -30,25 +31,48 @@
         <div id="success-section" class="hidden">
             <h1 class="success-title">I knew you'd say yes! 🥰</h1>
             <div id="gift-icon">🎁</div>
-            
-           <div id="final-message" class="hidden">
-    <h2 class="happiest">You just made me the happiest person alive ❤️</h2>
-    
-    <div class="scroll-wrapper">
-        <div class="photo-gallery">
-            <img src="https://picsum.photos/400/600?random=11" alt="Memory 1">
-            <img src="https://picsum.photos/400/600?random=12" alt="Memory 2">
-            <img src="https://picsum.photos/400/600?random=13" alt="Memory 3">
-            <img src="https://picsum.photos/400/600?random=14" alt="Memory 4">
-            <img src="https://picsum.photos/400/600?random=15" alt="Memory 5">
-            <img src="https://picsum.photos/400/600?random=16" alt="Memory 6">
+
+            <div id="final-message" class="hidden">
+                <h2 class="happiest">You just made me the happiest person alive ❤️</h2>
+                <div class="wheel-scene">
+                    <div class="wheel-container" id="image-wheel">
+                        <img src="ak/m1.jpeg" class="wheel-img">
+                        <img src="ak/m2.jpeg" class="wheel-img">
+                        <img src="ak/m3.jpeg" class="wheel-img">
+                        <img src="ak/m4.jpeg" class="wheel-img">
+                        <img src="ak/bg3.jpeg" class="wheel-img">
+                        <img src="ak/bg1.jpeg" class="wheel-img">
+                    </div>
+                </div>
+                <p class="footer-text">Our Memory Wheel</p>
+                <button id="msg-reveal-btn">Only for you 💌</button>
+            </div>
         </div>
     </div>
-    
-    <p class="footer-text">Swipe to see our memories... ⮕</p>
-</div>
+
+    <div id="popup-overlay" class="hidden">
+        <div class="heart-wrapper">
+            <div class="heart-box">
+                <span class="close-popup">&times;</span>
+                <p id="popup-msg">In the world full of chaos <br>
+                    You gave me calm   <br>
+                    In the world full of apple   <br>
+                    You are my aam   <br>
+                    In the heat of bright sun   <br>
+                    You are the one , I will go for run   <br>
+                    In the world full of darkness   <br>
+                    You are my laser gun   <br>
+                    In the world full of wars   <br>
+                    You gave me love   <br>
+                    You are everything ...my moon above   <br> <br> <br>
+
+
+                    <b>Happy Valentine's Day, Panda!</b></p>
+            </div>
         </div>
     </div>
+
     <script src="script.js"></script>
 </body>
+
 </html>
